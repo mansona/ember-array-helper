@@ -1,26 +1,21 @@
-# Ember-array-helper
+# ember-array-helper
+[![npm version](https://badge.fury.io/js/ember-array-helper.svg)](https://badge.fury.io/js/ember-array-helper)
+[![Build Status](https://travis-ci.org/kellyselden/ember-array-helper.svg?branch=master)](https://travis-ci.org/kellyselden/ember-array-helper)
+[![Dependency Status](https://david-dm.org/kellyselden/ember-array-helper.svg)](https://david-dm.org/kellyselden/ember-array-helper)
+[![devDependency Status](https://david-dm.org/kellyselden/ember-array-helper/dev-status.svg)](https://david-dm.org/kellyselden/ember-array-helper#info=devDependencies)
 
-This README outlines the details of collaborating on this Ember addon.
+Perfect companion to the {{hash ...}} template helper.
 
-## Installation
-
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+```hbs
+{{hash
+  name="parent"
+  children=(array
+    (hash
+      name="child1"
+    )
+    (hash
+      name="child2"
+    )
+  )
+}}
+```
