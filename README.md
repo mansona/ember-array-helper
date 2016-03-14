@@ -4,7 +4,7 @@
 [![Dependency Status](https://david-dm.org/kellyselden/ember-array-helper.svg)](https://david-dm.org/kellyselden/ember-array-helper)
 [![devDependency Status](https://david-dm.org/kellyselden/ember-array-helper/dev-status.svg)](https://david-dm.org/kellyselden/ember-array-helper#info=devDependencies)
 
-Perfect companion to the {{hash ...}} template helper.
+Perfect companion to the `{{hash ...}}` template helper.
 
 ```hbs
 {{hash
