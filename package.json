@@ -1,6 +1,6 @@
 {
   "name": "ember-array-helper",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Ember {{array ...}} template helper",
   "directories": {
     "doc": "doc",
