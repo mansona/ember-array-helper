@@ -1,6 +1,6 @@
 {
   "name": "ember-array-helper",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "Ember {{array ...}} template helper",
   "keywords": [
     "ember-addon"
